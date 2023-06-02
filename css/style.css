@@ -39,3 +39,25 @@
 .btn:hover{
     background: linear-gradient(#3c3c3c, #010101);
 }
+
+/* S1 */
+
+.s1 h2{
+    font-family: Poppins;
+    font-size: 35px;
+    color: #3a4a92;
+    font-weight: bold;
+    margin-top: 110px;
+}
+.s1 p{
+    font-family: Poppins;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.imagem-s1{
+    padding-top: 220px;
+}
+
+
+
+/* S1 fim */
