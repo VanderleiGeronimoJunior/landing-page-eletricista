@@ -58,6 +58,82 @@
     padding-top: 220px;
 }
 
-
-
 /* S1 fim */
+
+/* S2 */
+
+.s2{
+    background: url(../img/eletricista.png) no-repeat center center;
+    background-size: cover;
+    height: 478px;
+    margin-top: 110px;
+    margin-bottom: 80px;
+}
+
+.s2 h2{
+    font-family: Poppins;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #fff;
+    font-weight: bold;    
+    margin-top: 110px;
+}
+.s2 p{
+    font-family: Poppins;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.img-eletricista{
+    margin-top: 77px;
+}
+
+/* S2 fim */
+
+
+/* S3 */
+
+.s3 h2{
+    font-family: Poppins;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;    
+    margin-top: 110px;
+}
+
+.cor2{
+    color: #dfcf00;
+}
+
+.s3 li{
+    margin-top: 40px;
+    background: linear-gradient(#00c3fa, #0060eb);
+    width: 300px;
+    height: 400px;
+    border-radius: 30px 10px;
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    border-color: #feec00;
+    box-shadow: 0 13px 21px 0 rgb(0 0 0/56%);
+    padding: 20px 20px 30px 20px;
+
+    margin-bottom: 50px;
+}
+.s3 li h3{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+.s3 li p{    
+    font-family: Poppins;
+    color: #fff;
+    margin-top: 15px;    
+}
+.s3 li img{    
+    margin-bottom: 18px;
+}
+
+/* S3 fim */
