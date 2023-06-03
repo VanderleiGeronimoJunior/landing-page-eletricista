@@ -268,3 +268,96 @@
 }
 
 /* S6 fim */
+
+/* S7 */
+
+.s7{
+    background: url(../img/depoimento.jpg) no-repeat center center;
+    height: 650px;
+    margin-top: 110px;    
+}
+
+.s7 h2{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.depoimentos li{
+    height: 450px;
+    margin-top: 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+    border: 1px solid rgba(31, 86, 255, 0.47);
+    background: rgba(31, 86, 255, 0.47);
+    text-align: center;
+    margin-top: 60px;
+}
+
+.depoimentos h3{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.depoimentos p{
+    font-family: Poppins;
+    font-size: 15px;    
+    color: #fff;
+    margin-top: 5px;
+}
+
+.img-depoimentos{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    -o-object-fit: cover;
+    margin-top: 30px;
+}
+
+/* S7 fim */
+
+/* S8 */
+
+.s8{
+    width: 100%;
+    height: 700px;
+    background-color: #020524;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.s8 .img-garantia{
+    margin-top: 60px;
+}
+
+.s8 h2{
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.s8 p{
+    font-family: Poppins;
+    font-size: 18px;    
+    color: #fff;
+    margin-top: 5px;    
+}
+
+.s8 .btn{
+    margin-top: 50px;
+}
+
+/* S8 fim */
