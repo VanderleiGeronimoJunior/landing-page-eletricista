@@ -1,3 +1,8 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
 .topo-site{
     width: 100%;
     height: 800px;
@@ -333,8 +338,7 @@
     width: 100%;
     height: 700px;
     background-color: #020524;
-    text-align: center;
-    margin-bottom: 50px;
+    text-align: center;    
 }
 
 .s8 .img-garantia{
@@ -361,3 +365,56 @@
 }
 
 /* S8 fim */
+
+/* S9  */
+
+.s9{
+    height: 350px;
+    background-color: #ffa500;   
+}
+
+.img-footer{
+    margin-top: -122px;
+}
+
+.s9 h2{
+    font-family: Poppins;
+    font-size: 28px;    
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    color: #fff;
+    margin-top: 80px;    
+}
+
+.s9 p{
+    font-family: Poppins;
+    font-size: 15px;    
+    color: #000;
+    margin-top: 10px;    
+}
+
+/* S9 fim */
+
+/* S10 */
+
+.footer{
+    height: 50px;
+    width: 100%;
+    background: #000;
+}
+
+.footer h2{    
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    padding-top: 12px;
+}
+
+/* S10 fim */
+
+.voltar{
+    position: absolute;
+    left: 90%;
+    margin-top: -80px;
+}
