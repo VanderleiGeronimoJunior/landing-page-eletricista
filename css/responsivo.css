@@ -1,6 +1,65 @@
 /*Tablet*/
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
+    
+    .topo-do-site {
+        background-image:url(../img/banner-tablet.png);
+        background-size: cover;        
+    }
+
+    .topo-do-site h1 {
+        font-size: 31px;
+    }
+
+    .imagem-s1 {
+        display: none;
+    }
+
+    .s-1 h2 {
+        font-size: 28px;
+    }
+
+    .img-eletricista {
+        margin: 161px 0 0 0;
+    }
+
+    .s-2 h2 {
+        font-size: 31px;
+        margin-top: 130px;
+    }
+
+    .secao-4 h2,.secao-6 h2 {
+        font-size: 25px;
+    }
+
+    .s-3 li {
+        width: 235px;
+    }
+
+    .s-3 li p {
+        font-size: 15px;
+    }
+
+    .s-3 li h3 {
+        font-size: 18px;
+    }
+
+    .s-4 {
+        height: 560px;
+    }
+
+    .s-6 h2 {
+        margin-top: 20px;
+    }
+
+    .profissional {
+        margin-top: -57px;
+    }
+
+    .voltar {
+        left: 91%;
+    }
+
 
 }
 

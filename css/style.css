@@ -60,6 +60,7 @@ html{
     margin-top: 20px;
 }
 .imagem-s1{
+    width: 100%;
     padding-top: 220px;
 }
 
@@ -417,4 +418,238 @@ html{
     position: absolute;
     left: 90%;
     margin-top: -80px;
+}
+
+/*Tablet*/
+
+@media (min-width: 768px) and (max-width: 959px) {
+    
+    .topo-do-site {
+        background: url(../img/banner-tablet.png);
+        background-size: cover;        
+    }
+
+    .topo-site h1{
+        font-size: 32px;
+        margin-top: 260px;
+    }
+
+    .imagem-s1 {
+        display: none;
+    }
+
+    .s1 h2 {
+        font-size: 28px;
+    }
+
+    .img-eletricista {
+        margin: 161px 0 0 0;
+    }
+
+    .s2 h2 {
+        font-size: 31px;
+        margin-top: 65px;
+    }
+
+    .secao-4 h2,.secao-6 h2 {
+        font-size: 25px;
+    }
+
+    .s3 li {
+        width: 235px;
+    }
+
+    .s3 li p {
+        font-size: 15px;
+    }
+
+    .s3 li h3 {
+        font-size: 18px;
+    }
+    .s4{        
+        height: 560px;
+    }
+    
+    .s4 h2{
+       font-size: 25px;
+    }
+    
+    .s6 h2 {
+        font-size: 26px;
+        margin-top: 20px;
+    }
+    .s6 p {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    .profissional {
+        margin-top: -57px;
+    }
+
+    .img-depoimentos{
+        width: 180px;
+        height: 180px;
+    }
+    
+    .depoimentos p{        
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .img-footer {
+        margin-top: -24px;
+    }
+
+    .voltar {
+        left: 94%;
+    }
+
+
+}
+
+/*Smartphone*/
+
+@media (max-width: 768px){
+    
+    .topo-site {
+        background-image:url(../img/banner-cel.png)
+    }
+
+    .topo-site h1 {
+        margin-top: 10px;
+        font-size: 30px
+    }
+
+    header .btn {
+        margin-top: 270px;
+        margin-bottom: 80px
+    }
+
+    .img-eletricista2,.img-eletricista,.img-eletrica ,.imagem-s1 {
+        display: none
+    }
+
+    .s1 h2 {
+        margin-top: 20px;
+        font-size: 28px
+    }
+
+    .s1{
+        height: 1050px;
+    }
+
+    .s1 h2 {
+        
+        margin-top: -40px;
+    }
+
+    .s2 h2 {
+        margin-top: 95px;
+        font-size: 28px
+    }
+
+    .s2 h2{
+        margin-top: 60px;
+    }
+
+    .s3{
+        height: 865px;
+    }
+
+    .s3 h2{
+        margin-top: -560px;
+    }
+
+    .s3 h2,.s5 h2,.s6 h2,.s7 h2 {
+        font-size: 25px
+    }   
+
+    .s5 h2{
+        margin-top: 40px;
+    }
+
+    .s5 iframe{
+        height: 400px;
+    }
+
+    .s6 {
+        height: 800px;
+        margin-top: -53px;
+        margin-bottom: 0px;
+    }
+
+    .s6 h2 {
+        margin-top: 50px
+    }
+
+    .s6 .btn {
+        margin-top: 40px
+    }
+
+    .s7 {        
+        margin-top: 1px;
+        margin-bottom: 0px;
+    }
+
+    .s7 {
+        height: 600px
+    }
+
+    .depoimentos li{
+        height: 350px;
+    }
+
+    .img-depoimentos{
+        width: 100px;
+        height: 100px;
+    }
+
+    .depoimentos li:nth-child(2){
+        display: none;
+    }
+    .depoimentos li:nth-child(3){
+        display: none;
+    }
+    
+    .s8 {
+        height: 790px
+    }
+    
+    .s9 {
+        height: 700px
+    }
+
+    .s9 h2{
+        margin-top: 20px;
+    }
+
+    .img-footer {
+        border-radius: 500px;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+        width: 300px;
+        height: 300px;
+        -o-object-fit: cover;
+        margin-top: 30px
+    }
+
+    .residencial {
+        height: 2690px
+    }
+
+    .projeto-eletrico {
+        height: 1870px
+    }    
+
+    .chuveiro-eletrico {
+        height: 2150px
+    }
+
+    .s3 {
+        margin-top: 600px
+    }
+
+    
+	
 }
